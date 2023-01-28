@@ -13,13 +13,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 from pathlib import Path
 
 import os
-# from celery import Celery
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'carnot.settings')
-
-# app = Celery('carnot')
-# app.config_from_object('django.conf:settings', namespace='CELERY')
-# app.autodiscover_tasks()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
